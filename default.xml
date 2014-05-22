@@ -286,7 +286,7 @@
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="kk4.4" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" />
+  <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="gh" revision="kk4.4" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" remote="gh" revision="cm-11.0" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="gh" revision="cm-11.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -296,7 +296,6 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="C-RoM-KK/android_frameworks_opt_telephony" groups="pdk" remote="gh" revision="kitkat" />
-  <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" remote="gh" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="gh" revision="cm-11.0" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="gh" revision="cm-11.0" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="gh" revision="cm-11.0" />
