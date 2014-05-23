@@ -7,29 +7,32 @@
   <remote  name="gh"
            fetch="https://github.com/" />
 
+  <remote  name="crm"
+           fetch="https://github.com/C-RoM-KK" />
+
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="C-RoM-KK/android_build" groups="pdk" remote="gh" revision="kitkat" >
+  <project path="build" name="C-RoM-KK/android_build" groups="pdk" remote="crm" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="C-RoM-KK/android" remote="gh" revision="kitkat" />
+  <project path="android" name="C-RoM-KK/android" remote="crm" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="C-RoM-KK/android_art" remote="gh" revision="kitkat" />
-  <project path="bionic" name="C-RoM-KK/android_bionic" groups="pdk" />
+  <project path="art" name="C-RoM-KK/android_art" remote="crm" revision="kitkat" />
+  <project path="bionic" name="C-RoM-KK/android_bionic" groups="pdk" remote="crm" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="gh" revision="cm-11.0" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="gh" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="C-RoM-KK/android_dalvik" remote="gh" revision="kitkat" />
+  <project path="dalvik" name="C-RoM-KK/android_dalvik" remote="crm" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="C-RoM-KK/android_development" remote="gh" revision="kitkat" />
+  <project path="development" name="C-RoM-KK/android_development" remote="crm" revision="kitkat" />
 
   <!-- Generic Devices -->
   <project path="device/common" name="CyanogenMod/android_device_common" remote="gh" revision="cm-11.0" />
@@ -248,7 +251,7 @@
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="gh" revision="cm-11.0" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="C-RoM-KK/android_external_stlpor" remote="gh" revision="kitkat" />
+  <project path="external/stlport" name="C-RoM-KK/android_external_stlpor" remote="crm" revision="kitkat" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" remote="gh" revision="cm-11.0" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -273,15 +276,15 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
   <!-- Frameworks Packages -->
-  <project path="frameworks/av" name="C-RoM-KK/android_frameworks_av" remote="gh" revision="kitkat" />
-  <project path="frameworks/base" name="C-RoM-KK/android_frameworks_base" remote="gh" revision="kitkat" />
+  <project path="frameworks/av" name="C-RoM-KK/android_frameworks_av" remote="crm" revision="kitkat" />
+  <project path="frameworks/base" name="C-RoM-KK/android_frameworks_base" remote="crm" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="C-RoM-KK/android_frameworks_native" groups="pdk" remote="gh" revision="kitkat" />
+  <project path="frameworks/native" name="C-RoM-KK/android_frameworks_native" groups="pdk" remote="crm" revision="kitkat" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="kk4.4" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
@@ -295,7 +298,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="C-RoM-KK/android_frameworks_opt_telephony" groups="pdk" remote="gh" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="C-RoM-KK/android_frameworks_opt_telephony" groups="pdk" remote="crm" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="gh" revision="cm-11.0" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="gh" revision="cm-11.0" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="gh" revision="cm-11.0" />
@@ -320,13 +323,11 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="gh" revision="cm-11.0" />
-  <project path="hardware/qcom/display-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-legacy" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="gh" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="gh" revision="cm-11.0" />
-  <project path="hardware/qcom/media-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-legacy" remote="gh" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="gh" revision="cm-11.0" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="gh" revision="cm-11.0" groups="qcom" />
@@ -347,45 +348,44 @@
   <project path="ndk" name="platform/ndk" />
 
   <!-- Apps -->
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="gh" revision="cm-11.0" />
+  <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="gh" revision="android-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="gh" revision="kk4.4" />
-  <project path="packages/apps/Camera2" name="C-RoM-KK/android_packages_apps_Camera2" remote="gh" revision="kitkat" />
+  <project path="packages/apps/Camera2" name="C-RoM-KK/android_packages_apps_Camera2" remote="crm" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="gh" revision="cm-11.0" />
-  <project path="packages/apps/Contacts" name="C-RoM-KK/android_packages_apps_Contacts" remote="gh" revision="kitkat" />
-  <project path="packages/apps/ContactsCommon" name="C-RoM-KK/android_packages_apps_ContactsCommon" remote="gh" revision="kitkat" />
-  <project path="packages/apps/CRoMAbout" name="C-RoM-KK/android_packages_apps_CRoMAbout" remote="gh" revision="kitkat" />
-  <project path="packages/apps/CRoMOTA" name="C-RoM-KK/android_packages_apps_CRoMOTA" remote="gh" revision="kitkat" />
-  <project path="packages/apps/DashClock" name="C-RoM-KK/android_packages_apps_DashClock" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="SlimRoms/android_packages_apps_Contacts" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/ContactsCommon" name="C-RoM-KK/android_packages_apps_ContactsCommon" remote="crm" revision="kitkat" />
+  <project path="packages/apps/CRoMAbout" name="C-RoM-KK/android_packages_apps_CRoMAbout" remote="crm" revision="kitkat" />
+  <project path="packages/apps/CRoMOTA" name="C-RoM-KK/android_packages_apps_CRoMOTA" remote="crm" revision="kitkat" />
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="gh" revision="kk4.4" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="gh" revision="kitkat" />
-  <project path="packages/apps/Dialer" name="C-RoM-KK/android_packages_apps_Dialer" remote="gh" revision="kitkat" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="gh" revision="cm-11.0" />
+  <project path="packages/apps/Dialer" name="C-RoM-KK/android_packages_apps_Dialer" remote="crm" revision="kitkat" />
+  <project path="packages/apps/DSPManager" name="C-RoM-KK/android_packages_apps_DSPManager" remote="crm" revision="kitkat" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="gh" revision="kk4.4" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="gh" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="C-RoM-KK/android_packages_apps_Gallery2" remote="gh" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="C-RoM-KK/android_packages_apps_InCallUI" remote="gh" revision="kitkat" />
-  <project path="packages/apps/KernelTweaker" name="C-RoM-KK/android_packages_apps_KernelTweaker" remote="gh" revision="kitkat" />
+  <project path="packages/apps/InCallUI" name="C-RoM-KK/android_packages_apps_InCallUI" remote="crm" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher3" name="omnirom/android_packages_apps_Launcher3" remote="gh" revision="android-4.4" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="gh" revision="cm-11.0" />
-  <project path="packages/apps/Mms" name="C-RoM-KK/android_packages_apps_Mms" remote="gh" revision="kitkat" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="gh" revision="cm-11.0" />
+  <project path="packages/apps/Mms" name="C-RoM-KK/android_packages_apps_Mms" remote="crm" revision="kitkat" />
+  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="gh" revision="kk4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="omnirom/android_packages_apps_PackageInstaller" remote="gh" revision="android-4.4" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMStats" name="C-RoM-KK/android_packages_apps_ROMStats" remote="gh" revision="kitkat" />
-  <project path="packages/apps/OmniSwitch" name="C-RoM-KK/android_packages_apps_OmniSwitch" remote="gh" revision="kitkat" />
+  <project path="packages/apps/ROMStats" name="C-RoM-KK/android_packages_apps_ROMStats" remote="crm" revision="kitkat" />
+  <project path="packages/apps/OmniSwitch" name="C-RoM-KK/android_packages_apps_OmniSwitch" remote="crm" revision="kitkat" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="gh" revision="cm-11.0" />
   <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="gh" revision="kitkat" />
-  <project path="packages/apps/Settings" name="C-RoM-KK/android_packages_apps_Settings" remote="gh" revision="kitkat" />
+  <project path="packages/apps/Settings" name="C-RoM-KK/android_packages_apps_Settings" remote="crm" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -396,20 +396,20 @@
   <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="gh" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="gh" revision="kk4.4" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="C-RoM-KK/android_packages_inputmethods_LatinIME" remote="gh" revision="kitkat" />
+  <project path="packages/inputmethods/LatinIME" name="C-RoM-KK/android_packages_inputmethods_LatinIME" remote="crm" revision="kitkat" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="gh" revision="cm-11.0" />
-  <project path="packages/providers/ContactsProvider" name="C-RoM-KK/android_packages_providers_ContactsProvider" remote="gh" revision="kitkat" />
+  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="gh" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="omnirom/android_packages_providers_DownloadProvider" remote="gh" revision="android-4.4" />
   <project path="packages/providers/MediaProvider" name="CarbonDev/android_packages_providers_MediaProvider" remote="gh" revision="kk" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="gh" revision="cm-11.0" />
+  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="gh" revision="kk4.4" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="gh" revision="cm-11.0" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="C-RoM-KK/android_packages_services_Telephony" remote="gh" revision="kitkat" />
+  <project path="packages/services/Telephony" name="C-RoM-KK/android_packages_services_Telephony" remote="crm" revision="kitkat" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/BlueBalls" name="CarbonDev/android_packages_wallpapers_BlueBalls" remote="gh" revision="kk" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
@@ -453,9 +453,9 @@
   <project path="sdk" name="platform/sdk" />
 
   <!-- System and Tool Packages -->
-  <project path="system/core" name="C-RoM-KK/android_system_core" groups="pdk" remote="gh" revision="kitkat" />
+  <project path="system/core" name="C-RoM-KK/android_system_core" groups="pdk" remote="crm" revision="kitkat" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="cm-11.0" groups="pdk" />
-  <project path="system/media" name="C-RoM-KK/android_system_media" groups="pdk" remote="gh" revision="kitkat" />
+  <project path="system/media" name="C-RoM-KK/android_system_media" groups="pdk" remote="crm" revision="kitkat" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="gh" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="gh" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -473,5 +473,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Package -->
-  <project path="vendor/crom" name="C-RoM-KK/android_vendor_crom" remote="gh" revision="kitkat" />
+  <project path="vendor/crom" name="C-RoM-KK/android_vendor_crom" remote="crm" revision="kitkat" />
 </manifest>
