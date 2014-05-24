@@ -38,7 +38,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="android_development" remote="crm" revision="kitkat" />
+  <project path="development" name="SlimRoms/android_development" remote="gh" revision="kk4.4" />
 
   <!-- Generic Devices -->
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
