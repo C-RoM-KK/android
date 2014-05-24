@@ -379,7 +379,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="crm" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher3" name="omnirom/android_packages_apps_Launcher3" remote="gh" revision="android-4.4" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="crm" revision="kitkat" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="gh" revision="kk4.4" />
