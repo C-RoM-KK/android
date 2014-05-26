@@ -128,7 +128,7 @@
   <project path="external/embunit" name="android_external_embunit" remote="cm" revision="cm-11.0" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
+  <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="gh" revision="kk4.4" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
@@ -137,7 +137,7 @@
   <project path="external/flac" name="android_external_flac" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
-  <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
+  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="gh" revision="kk4.4" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
