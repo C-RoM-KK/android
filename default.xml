@@ -284,7 +284,7 @@
 
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="crm" revision="kitkat" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="crm" revision="kitkat-old" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="crm" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
