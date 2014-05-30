@@ -8,10 +8,13 @@
            fetch="https://github.com/" />
 
   <remote  name="crm"
-           fetch="https://github.com/C-RoM-KK" />
+           fetch="https://github.com/C-RoM-KK/" />
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
+
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms/" />
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
@@ -38,7 +41,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="SlimRoms/android_development" remote="gh" revision="kk4.4" />
+  <project path="development" name="android_development" remote="slim" revision="kk4.4" />
 
   <!-- Generic Devices -->
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
@@ -128,7 +131,7 @@
   <project path="external/embunit" name="android_external_embunit" remote="cm" revision="cm-11.0" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="gh" revision="kk4.4" />
+  <project path="external/exfat" name="android_external_exfat" remote="slim" revision="kk4.4" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
@@ -137,7 +140,7 @@
   <project path="external/flac" name="android_external_flac" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
-  <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="gh" revision="kk4.4" />
+  <project path="external/fuse" name="android_external_fuse" remote="slim" revision="kk4.4" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -293,10 +296,10 @@
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="crm" revision="new" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" remote="gh" revision="kk4.4" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="slim" revision="kk4.4" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="SlimRoms/frameworks_opt_datetimepicker" remote="gh" revision="kk4.4" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="slim" revision="kk4.4" />
   <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -360,28 +363,28 @@
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="crm" revision="kitkat" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Calendar" name="SlimRoms/packages_apps_Calendar" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="crm" revision="kitkat" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" revision="kk4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="crm" revision="kitkat" />
   <project path="packages/apps/CRoMAbout" name="android_packages_apps_CRoMAbout" remote="crm" revision="kitkat" />
   <project path="packages/apps/CRoMOTA" name="android_packages_apps_CRoMOTA" remote="crm" revision="kitkat" />
-  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="slim" revision="kk4.4" />
   <project path="packages/apps/DeskClock" name="AICP/packages_apps_DeskClock" remote="gh" revision="kitkat" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="crm" revision="kitkat" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="crm" revision="kitkat" />
-  <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="gh" revision="kk4.4" />
-  <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="slim" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="crm" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="crm" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="crm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="crm" revision="kitkat" />
-  <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="kk4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="omnirom/android_packages_apps_PackageInstaller" remote="gh" revision="android-4.4" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
@@ -399,17 +402,17 @@
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="crm" revision="kitkat" />
-  <project path="packages/apps/Torch" name="SlimRoms/packages_apps_Torch" remote="gh" revision="kk4.4" />
-  <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="gh" revision="kk4.4" />
+  <project path="packages/apps/Torch" name="packages_apps_Torch" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" revision="kk4.4" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="crm" revision="kitkat" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" revision="cm-11.0" />
-  <project path="packages/providers/ContactsProvider" name="SlimRoms/packages_providers_ContactsProvider" remote="gh" revision="kk4.4" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="crm" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="crm" revision="kitkat" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" remote="gh" revision="kk4.4" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
