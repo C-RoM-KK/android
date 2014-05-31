@@ -11,13 +11,13 @@
            fetch="https://github.com/C-RoM-KK/" />
 
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/" />
+           fetch="https://github.com/CyanogenMod/" />
 
   <remote  name="slim"
            fetch="https://github.com/SlimRoms/" />
 
   <remote  name="tm"
-           fetch="git://github.com/TheMuppets/" />
+           fetch="https://github.com/TheMuppets/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
