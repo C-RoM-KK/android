@@ -19,6 +19,9 @@
   <remote  name="slim"
            fetch="https://github.com/SlimRoms/" />
 
+  <remote  name="aokp"
+           fetch="https://github.com/AOKP/" />
+           
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
 
