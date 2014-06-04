@@ -295,7 +295,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
 
   <!-- Frameworks Packages -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="omni" revision="android-4.4" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="ls" revision="kitkat" />
   <project path="frameworks/base" name="android_frameworks_base" remote="crm" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
