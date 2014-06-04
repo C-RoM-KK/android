@@ -324,7 +324,7 @@
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/webview" name="LiquidSmooth/android_frameworks_webview" remote="gh" revision="kitkat" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
 
   <!-- Hardware Packages -->
