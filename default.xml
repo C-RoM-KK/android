@@ -358,7 +358,7 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
 
   <!-- Stuff -->
-  <project path="libcore" name="android_libcore" remote="cm" revision="cm-11.0" />
+  <project path="libcore" name="android_libcore" remote="crm" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
 
