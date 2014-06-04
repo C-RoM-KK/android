@@ -19,7 +19,7 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
 
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
@@ -41,7 +41,7 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="android_development" remote="slim" revision="kk4.4" />
+  <project path="development" name="android_development" remote="crm" revision="kitkat" />
 
   <!-- Generic Devices -->
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
@@ -86,11 +86,11 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="crm" revision="kitkat" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
-  <project path="external/chromium_org/third_party/angle_dx11" name="platform/external/chromium_org/third_party/angle_dx11" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" />
   <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" />
   <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" />
   <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" />
@@ -99,9 +99,10 @@
   <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" />
   <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" />
-  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="cm" revision="cm-11.0" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="crm" revision="kitkat" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" />
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" />
   <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" />
@@ -178,6 +179,7 @@
   <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
+  <project path="external/libexif" name="platform/external/libexif" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
@@ -194,6 +196,7 @@
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="android_external_libsepol" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libtar" name="android_external_libtar" remote="cm" revision="cm-11.0" />
   <project path="external/libusb" name="android_external_libusb" remote="cm" revision="cm-11.0" />
   <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-11.0" />
@@ -251,7 +254,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
+  <project path="external/skia" name="android_external_skia" remote="crm" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -310,10 +313,10 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="crm" revision="kitkat" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="crm" revision="kitkat" />
   <project path="frameworks/support" name="android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
@@ -325,7 +328,7 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="crm" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
@@ -403,7 +406,7 @@
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="crm" revision="kitkat" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" revision="cm-11.0" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="slim" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="crm" revision="kitkat" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="crm" revision="kitkat" />
@@ -448,6 +451,8 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
@@ -461,7 +466,7 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="crm" revision="kitkat" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="crm" revision="kitkat" />
-  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="crm" revision="kitkat" groups="pdk" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="crm" revision="kitkat" groups="pdk" />
