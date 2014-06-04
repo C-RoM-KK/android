@@ -6,6 +6,9 @@
 
   <remote  name="gh"
            fetch="https://github.com/" />
+           
+  <remote  name="omni"
+           fetch="https://github.com/omnirom/" />
 
   <remote  name="crm"
            fetch="https://github.com/C-RoM-KK/" />
@@ -16,6 +19,9 @@
   <remote  name="slim"
            fetch="https://github.com/SlimRoms/" />
 
+  <remote  name="aokp"
+           fetch="https://github.com/AOKP/" />
+           
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
 
