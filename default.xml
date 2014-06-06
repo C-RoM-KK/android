@@ -260,7 +260,7 @@
   <project path="external/sepolicy" name="AOSP-S4-KK/platform_external_sepolicy" remote="gh" revision="kk-4.4" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-11.0" />
+  <project path="external/skia" name="AOSPA/android_external_skia" remote="gh" revision="kitkat" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
