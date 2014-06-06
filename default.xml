@@ -92,7 +92,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="crm" revision="kitkat" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -358,7 +358,7 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
 
   <!-- Stuff -->
-  <project path="libcore" name="android_libcore" remote="crm" revision="kitkat" />
+  <project path="libcore" name="android_libcore" remote="cm" revision="cm-11.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
 
@@ -390,7 +390,7 @@
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="crm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="crm" revision="kitkat" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="kk4.4" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="omnirom/android_packages_apps_PackageInstaller" remote="gh" revision="android-4.4" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
@@ -472,10 +472,10 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="crm" revision="kitkat" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="crm" revision="kitkat" />
-  <project path="system/netd" name="android_system_netd" remote="crm" revision="kitkat" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" remote="crm" revision="kitkat" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="crm" revision="kk" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
