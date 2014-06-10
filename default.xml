@@ -138,7 +138,7 @@
   <project path="external/embunit" name="android_external_embunit" remote="cm" revision="cm-11.0" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/exfat" name="android_external_exfat" remote="slim" revision="kk4.4" />
+  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" revision="kk4.4" />
