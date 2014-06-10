@@ -201,7 +201,7 @@
   <project path="external/libpng" name="android_external_libpng" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <project path="external/libsepol" name="android_external_libsepol" remote="slim" revision="kk4.4" groups="pdk" />
+  <project path="external/libsepol" name="android_external_libsepol" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libtar" name="android_external_libtar" remote="cm" revision="cm-11.0" />
   <project path="external/libusb" name="android_external_libusb" remote="cm" revision="cm-11.0" />
@@ -257,7 +257,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="slim" revision="kk4.4" groups="pdk" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
   <project path="external/skia" name="AOSPA/android_external_skia" remote="gh" revision="kitkat" />
