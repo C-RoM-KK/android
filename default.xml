@@ -30,7 +30,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" groups="pdk" remote="crm" revision="new" >
+  <project path="build" name="android_build" groups="pdk" remote="crm" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="crm" revision="kitkat" />
