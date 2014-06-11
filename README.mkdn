@@ -32,7 +32,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/C-RoM-KK/android.git -b kitkat
+    repo init -u git://github.com/C-RoM-KK/android.git -b kitkat-legacy
 
     repo sync
     
