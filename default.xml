@@ -388,6 +388,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="crm" revision="kitkat" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="crm" revision="kitkat" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="crm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="crm" revision="kitkat" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -407,7 +408,6 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="crm" revision="kitkat" />
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="slim" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" revision="kk4.4" />
   <project path="packages/experimental" name="platform/packages/experimental" />
