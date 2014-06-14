@@ -30,7 +30,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" groups="pdk" remote="crm" revision="new" >
+  <project path="build" name="android_build" groups="pdk" remote="crm" revision="kitkat-legacy" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="crm" revision="kitkat-legacy" />
@@ -39,7 +39,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="crm" revision="kitkat" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="slim" revision="kk4.4" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="cm" revision="cm-11-0" />
   <project path="bootable/recovery-cm" name="android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="crm" revision="kitkat-test" />
@@ -471,7 +471,7 @@
   <project path="sdk" name="platform/sdk" />
 
   <!-- System and Tool Packages -->
-  <project path="system/core" name="android_system_core" groups="pdk" remote="crm" revision="kk" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="crm" revision="kitkat-legacy" />
   <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="crm" revision="kitkat" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
