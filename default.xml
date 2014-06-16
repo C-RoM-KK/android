@@ -30,7 +30,7 @@
            sync-c="true"
            sync-j="8" />
 
-  <project path="build" name="android_build" groups="pdk" remote="crm" revision="kk" >
+  <project path="build" name="android_build" groups="pdk" remote="crm" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="crm" revision="kitkat" />
@@ -182,7 +182,7 @@
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-11.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="Superuser" remote="slim" revision="kk4.4" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" />
