@@ -182,7 +182,7 @@
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-11.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="Superuser" remote="slim" revision="kk.4.4" />
+  <project path="external/koush/Superuser" name="Superuser" remote="slim" revision="kk4.4" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libexif" name="platform/external/libexif" />
