@@ -40,7 +40,6 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="slim" revision="kk4.4" />
-  <project path="bootable/recovery-cm" name="android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="crm" revision="kitkat-test" />
   <project path="developers/build" name="platform/developers/build" />
@@ -50,7 +49,7 @@
   <project path="development" name="android_development" remote="crm" revision="kitkat" />
 
   <!-- Generic Devices -->
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-11.0" />
+  <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -67,10 +66,9 @@
 
   <!-- External Packages -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="android_external_aac" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="slim" revision="kk4.4" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-11.0" />
-  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-11.0" />
+  <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -144,7 +142,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" revision="kk4.4" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
-  <project path="external/flac" name="android_external_flac" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/flac" name="android_external_flac" groups="pdk" remote="slim" revision="kk4.4" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
