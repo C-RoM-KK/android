@@ -141,13 +141,13 @@
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-11.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="slim" revision="kk4.4" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-11.0" />
   <project path="external/flac" name="android_external_flac" groups="pdk" remote="cm" revision="cm-11.0" />
   <project path="external/freetype" name="android_external_freetype" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="cm" revision="cm-11.0" />
-  <project path="external/fuse" name="android_external_fuse" remote="slim" revision="kk4.4" />
+  <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-11.0" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -214,7 +214,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="cm" revision="cm-11.0" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="android_external_llvm" remote="slim" revision="kk4.4" groups="pdk" />
+  <project path="external/llvm" name="android_external_llvm" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -342,7 +342,7 @@
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slim" revision="kk4.4" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-11.0" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
