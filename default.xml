@@ -80,7 +80,7 @@
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-11.0" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slim" revision="kk4.4" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slim" revision="kk4.4-caf" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bson" name="android_external_bson" remote="cm" revision="cm-11.0" />
